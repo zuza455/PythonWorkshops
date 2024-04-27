@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "002-code"
-version = "0.1.0"
-description = ""
+name = "pypricer"
+version = "1.0.0"
+description = "Package for simulation of stochastic processes and option pricing."
 authors = ["PIOTR MIKLER <piotr.mikler1997@gmail.com>"]
 readme = "README.md"
-packages = [{include = "002_code"}]
+packages = [{include = "pricer"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"

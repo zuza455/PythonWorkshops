@@ -9,10 +9,10 @@ Tematyką cyklu są symulacje i wycena opcji metodą Monte Carlo. Warsztaty podz
 Celem zajęć jest zaznajomienie uczestników z podstawami Pythona, oraz pakietów które będą niezbędne podczas warsztatów. 
     
 > Agenda:
-> - Google Collab & Jupyter Notebook
+> - GitHub & Git
+> - Pythonowe IDE
 > - Symulacje zmiennych losowych z `numpy`
 > - Rozkłady zmiennych losowych w `scipy`
-> - Wizualizacje z `matplotlib`
 
 ## 22.05.24 - Symulacje procesów stochastycznych.
 Celem zajęć jest wykorzystanie wiedzy z poprzednich zajęć w celu zbudowania silnika symulującego realizacje wybranych procesów stochastycznych.
@@ -21,7 +21,7 @@ Celem zajęć jest wykorzystanie wiedzy z poprzednich zajęć w celu zbudowania 
 > - Funkcje i generatory w języku python
 > - Szeregi czasowe z `pandas`
 > - Symulacja wybranych procesów stochastycznych
-> - Wizualizacje z `pandas`
+> - Wizualizacje z `matplotlib` i `pandas`
 
 ## 29.05.24 - Wycena wybranych rodzajów opcji.
 Celem zajęć jest wykorzystanie silnika symulacyjnego z poprzednich zajęć do wyceny wybranych rodzajów opcji metodą Monte Carlo. 
