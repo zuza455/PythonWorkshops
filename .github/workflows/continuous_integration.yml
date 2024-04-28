@@ -23,4 +23,4 @@ jobs:
         poetry install
     - name: Run unit tests
       run: |
-        poetry run pytest --cov-report term --cov=pypricer test
+        poetry run pytest test
