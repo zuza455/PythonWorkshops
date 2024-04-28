@@ -1,3 +1,5 @@
+[![CI pipeline](https://github.com/PiotMik/PythonWorkshops/actions/workflows/continuous_integration.yml/badge.svg?branch=develop)](https://github.com/PiotMik/PythonWorkshops/actions/workflows/continuous_integration.yml)
+
 # Python Workshops
 Repozytorium przygotowane na warsztaty z Pythona prowadzone dla KNMF na AGH 08.05 - 29.05 2024.
 
