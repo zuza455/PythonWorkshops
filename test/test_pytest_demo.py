@@ -1,4 +1,5 @@
 import pytest
+from pypricer import demo_functions
 
 def test_simple_assertion():
     assert True
@@ -30,6 +31,11 @@ def test_parameterized(expected, inputs):
 def test_expected_failure():
     with pytest.raises(ZeroDivisionError):
         5.0 / 0.0
+
+def test_greet_user():
+    function_result = demo_functions.greet_user("Piotr")
+    assert isinstance(function_result, str)
+    assert function_result == "Hello Piotr!"
 
 if __name__ == "__main__":
     pass
