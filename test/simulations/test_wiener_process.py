@@ -12,7 +12,7 @@ def test_wiener_process_shape():
 
     paths = wiener_process.generate_wiener_process(n_paths, n_steps, dt, sigma, mu)
 
-    assert paths.shape == (n_paths, n_steps + 1)
+    assert paths.shape == (n_steps + 1, n_paths)
 
 
 @pytest.mark.parametrize(
@@ -28,7 +28,7 @@ def test_wiener_process_deterministic_drift(mu):
 
     expected_paths = mu * dt * np.arange(0.0, n_steps + 1)
 
-    np.testing.assert_allclose(paths.ravel(), expected_paths, atol=1e-6)
+    np.testing.assert_allclose(paths.values.ravel(), expected_paths, atol=1e-6)
 
 
 if __name__ == "__main__":
