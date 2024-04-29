@@ -20,12 +20,11 @@ def generate_wiener_process(
             The first row is the initial value (usually zero for Wiener processes).
     """
     paths = np.zeros((n_paths, n_steps + 1))
-    t = np.zeros(n_steps + 1)
+    t = np.arange(0.0, dt * (n_steps + 1), dt)
     for i in range(n_paths):
         for j in range(1, n_steps + 1):
             dW = np.random.normal(loc=mu * dt, scale=sigma * np.sqrt(dt))
             paths[i, j] = paths[i, j - 1] + dW
-            t[j] = t[j - 1] + dt
 
     paths_df = pd.DataFrame(paths.T, index=t)
     return paths_df

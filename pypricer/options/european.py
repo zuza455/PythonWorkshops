@@ -13,7 +13,10 @@ class EuropeanOption:
 
 class EuropeanCallOption(EuropeanOption):
     def payoff(self, path: np.ndarray) -> np.ndarray:
-        return np.maximum(0.0, path.loc[self.expiry] - self.strike_price)
+        return np.maximum(0.0, path.iloc[-1, :] - self.strike_price)
+
+    def price(self, path: np.ndarray, rfr: float) -> np.ndarray:
+        return np.exp(-self.expiry * rfr) * self.payoff(path=path).mean()
 
 
 if __name__ == "__main__":
