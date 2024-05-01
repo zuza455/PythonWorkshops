@@ -21,7 +21,7 @@ Celem zajęć jest wykorzystanie wiedzy z poprzednich zajęć w celu zbudowania 
 
 > Agenda:
 > - Funkcje i generatory w języku python
-> - Szeregi czasowe z `pandas`
+> - Szeregi czasowe w `pandas`
 > - Symulacja wybranych procesów stochastycznych
 > - Wizualizacje z `matplotlib` i `pandas`
 
