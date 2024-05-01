@@ -19,6 +19,11 @@ Celem warsztatów jest samodzielne usprawnienie kodu, z poprawnym użyciem kontr
 > - Prezentacja gitflow w praktyce
 > - Samodziele ćwiczenia uczestników
 
+> Materiały pomocnicze:
+> - [Short Git tutorial](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+> - [Git cheatsheet](https://training.github.com/downloads/pl/github-git-cheat-sheet/)
+> - [Gitflow](https://www.atlassian.com/pl/git/tutorials/comparing-workflows/gitflow-workflow)
+
 ## 22.05.24 - Symulacje procesów stochastycznych.
 Celem zajęć jest wykorzystanie wiedzy z poprzednich zajęć w celu zbudowania silnika symulującego realizacje wybranych procesów stochastycznych.
 
