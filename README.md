@@ -7,13 +7,17 @@ Celem warsztatów jest zaprezentowanie języka programowania Python w kontekści
 Tematyką cyklu są symulacje i wycena opcji metodą Monte Carlo. Warsztaty podzielone są na trzy części po 1.5h, podczas których uczestnicy rozwiązywać będą praktyczne zadania używając popularnych pakietów pythona.
 
 
-## 08.05.24 - Podstawy Pythona.
-Celem zajęć jest zaznajomienie uczestników z podstawami Pythona, oraz pakietów które będą niezbędne podczas warsztatów. 
+## 08.05.24 - Jak pracować z kodem w dużym zespole
+Tematem zajęć jest przedstawienie uczestnikom w jaki sposób zespoły developerskie współpracują nad wspólnym kodem aplikacji.
+Uczestnicy zaznajomią się z systemem kontroli wersji Git i operacjami wykonywanymi podczas codziennej pracy developera, oraz strategią Gitflow.
+Celem warsztatów jest samodzielne usprawnienie kodu, z poprawnym użyciem kontroli wersji. 
     
 > Agenda:
-> - GitHub & Git
-> - Pythonowe IDE
-> - Symulacje zmiennych losowych z `numpy` i `scipy`
+> - Git & GitHub
+> - Strategia Gitflow
+> - CLI `git` / Git VSCode extension
+> - Prezentacja gitflow w praktyce
+> - Samodziele ćwiczenia uczestników
 
 ## 22.05.24 - Symulacje procesów stochastycznych.
 Celem zajęć jest wykorzystanie wiedzy z poprzednich zajęć w celu zbudowania silnika symulującego realizacje wybranych procesów stochastycznych.
