@@ -13,8 +13,7 @@ Celem zajęć jest zaznajomienie uczestników z podstawami Pythona, oraz pakiet�
 > Agenda:
 > - GitHub & Git
 > - Pythonowe IDE
-> - Symulacje zmiennych losowych z `numpy`
-> - Rozkłady zmiennych losowych w `scipy`
+> - Symulacje zmiennych losowych z `numpy` i `scipy`
 
 ## 22.05.24 - Symulacje procesów stochastycznych.
 Celem zajęć jest wykorzystanie wiedzy z poprzednich zajęć w celu zbudowania silnika symulującego realizacje wybranych procesów stochastycznych.
