@@ -1,0 +1,14 @@
+1. Python
+    - Wersja >= 3.9
+    - https://www.python.org/downloads/
+2. Visual Studio Code
+    - Wersja: dowolna stabilna
+    - https://code.visualstudio.com/
+3. Git
+    - Wersja: dowolna stabilna
+    - https://git-scm.com/
+4. Poetry
+    - Wersja: v1.5.0
+    - https://python-poetry.org/docs/#installation
+5. Konto na Github
+    - https://github.com/
