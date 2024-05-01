@@ -41,4 +41,4 @@ async def price_european_call(
 
 
 if __name__ == "__main__":
-    uvicorn.run("api:app", host="localhost", port=8080, reload=True)
+    uvicorn.run("pypricer_api:app", host="localhost", port=8080, reload=True)
