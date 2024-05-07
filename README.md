@@ -24,25 +24,6 @@ Celem warsztatów jest samodzielne usprawnienie kodu, z poprawnym użyciem kontr
 > - [Git cheatsheet](https://training.github.com/downloads/pl/github-git-cheat-sheet/)
 > - [Gitflow](https://www.atlassian.com/pl/git/tutorials/comparing-workflows/gitflow-workflow)
 
-## 22.05.24 - Symulacje procesów stochastycznych.
-Celem zajęć jest wykorzystanie wiedzy z poprzednich zajęć w celu zbudowania silnika symulującego realizacje wybranych procesów stochastycznych.
-
-> Agenda:
-> - Funkcje i generatory w języku python
-> - Szeregi czasowe w `pandas`
-> - Symulacja wybranych procesów stochastycznych
-> - Wizualizacje z `matplotlib` i `pandas`
-
-## 29.05.24 - Wycena wybranych rodzajów opcji.
-Celem zajęć jest wykorzystanie silnika symulacyjnego z poprzednich zajęć do wyceny wybranych rodzajów opcji metodą Monte Carlo. 
-
-> Agenda:
-> - Elementy programowania obiektowego z `pydantic`
-> - Monte Carlo
-> - Symulacyjna wycena opcji
-> - Demo: od developmentu w Jupyterze, do kodu w produkcji
-
-
 ### Authors
 [Piotr Mikler <piotr.mikler1997@gmail.com>](https://github.com/PiotMik)
 
