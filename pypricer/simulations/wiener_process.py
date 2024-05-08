@@ -4,7 +4,7 @@ import pandas as pd
 
 def generate_wiener_process(
     n_paths: int, n_steps: int, dt: float, sigma: float, mu: float
-) -> np.array:
+) -> pd.DataFrame:
     """Generate paths of the Wiener Process.
 
     Args:
