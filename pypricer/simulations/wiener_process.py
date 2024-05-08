@@ -20,7 +20,7 @@ def generate_wiener_process(
             The first row is the initial value (usually zero for Wiener processes).
     """
     paths = np.zeros((n_paths, n_steps + 1))
-    t = np.arange(0.0, dt * (n_steps + 1), dt)
+    t = np.linspace(0.0, dt * (n_steps + 1), n_steps + 1)
     for i in range(n_paths):
         for j in range(1, n_steps + 1):
             dW = np.random.normal(loc=mu * dt, scale=sigma * np.sqrt(dt))
